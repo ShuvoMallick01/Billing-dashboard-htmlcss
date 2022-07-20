@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>e-Commerce Website</title>
+  </head>
+  <body>
+    <!-- Main area start -->
+    <div class="container">
+      <!-- Left side Nav Bar Start -->
+      <div class="left-side">
+        <!-- User information start -->
+        <div class="user-info align-items-center">
+          <img class="user-img" src="./images/user-pic.png" alt="user-img" />
+          <div class="user-name">
+            <h4>Lldiko Gaspar</h4>
+            <p>@igaspar</p>
+          </div>
+        </div>
+        <!-- User Information End -->
+
+        <!-- Nav Bar Start-->
+        <nav>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-solid fa-house"></i> General</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-lock"></i> Password</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-envelope"></i> Invitations</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-money-bills"></i> Billing</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-tablet-button"></i> Apps</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Nav Bar End-->
+
+        <button href="#" class="logout">
+          <i class="fa-solid fa-arrow-right-from-bracket logout-icon"></i> Log
+          Out
+        </button>
+      </div>
+      <!-- Left side Nav Bar end -->
+
+      <!-- right side Start -->
+      <div class="right-side">
+        <div class="billing-history">
+          <h1 class="heading">Billing</h1>
+          <h4 class="sub-heading">Order History</h4>
+          <p class="paragraph">Manage billing information and view receips</p>
+
+          <!-- table contents start -->
+          <table class="content-table">
+            <tr>
+              <th>Date</th>
+              <th>Type</th>
+              <th>Receipt</th>
+            </tr>
+            <tr>
+              <td>Oct 21, 2021</td>
+              <td>Pro Annual</td>
+              <td><button>Download</button></td>
+            </tr>
+            <tr>
+              <td>Aug 21, 2021</td>
+              <td>Pro Portfolio</td>
+              <td><button>Download</button></td>
+            </tr>
+            <tr>
+              <td>July 21, 2021</td>
+              <td>Sponsored Post</td>
+              <td><button>Download</button></td>
+            </tr>
+            <tr>
+              <td>June 21, 2021</td>
+              <td>Sponsored Post</td>
+              <td><button>Download</button></td>
+            </tr>
+          </table>
+          <p href="#" class="load-more">Load more</p>
+
+          <!-- Payment Method Start -->
+          <div class="payment-method">
+            <h4 class="sub-heading">Payment Method</h4>
+            <p class="paragraph">Manage billing information and view receips</p>
+            <div class="card-details">
+              <img class="card-name" src="./images/visa.png" alt="Visa Logo" />
+              <p class="info-paragraph">Visa ending in 2255</p>
+              <button>Remove</button>
+            </div>
+          </div>
+          <!-- Payment Method End -->
+        </div>
+        <!-- Billing History End -->
+
+        <!-- Your Plan Card Start -->
+        <div class="card-plan"></div>
+        <!-- Your Plan Card End -->
+      </div>
+      <!-- right side End -->
+    </div>
+    <!-- Main area end -->
+  </body>
+</html>

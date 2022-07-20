@@ -1,0 +1,279 @@
+/* ========== Reset CSS ========== */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #1a194d;
+  background-color: #fdf5f5;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #62618f;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+/* Utilities Class*/
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 32px;
+  color: #1a194d;
+}
+
+.sub-heading {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1a194d;
+}
+
+.paragraph {
+  font-weight: 500;
+  font-size: 14px;
+  color: #62618f;
+}
+
+.info-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  color: #1a194d;
+}
+
+/* Utilities Class End*/
+
+/* left Side Nav Bar Start */
+.left-side {
+  width: 20%;
+  background-color: #f8f8ff;
+  padding: 55px 14px;
+  position: relative;
+  border-radius: 15px 0 0 15px;
+}
+
+.user-info {
+  display: flex;
+  padding-left: 22px;
+  gap: 10px;
+}
+
+.user-img {
+  max-height: 52px;
+}
+
+.user-img img {
+  height: 100%;
+}
+
+.user-name h4 {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.user-name p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #62618f;
+}
+
+/* Nav Bar start */
+nav {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+nav ul {
+  gap: 15px;
+}
+
+nav ul li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  border-left: 4px solid #ee6338;
+  z-index: 1;
+}
+
+nav ul li a {
+  font-size: 14px;
+}
+
+nav ul li a:hover {
+  color: #1a194d;
+}
+
+nav ul li i {
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.left-side button {
+  padding: 12px 25px;
+  position: absolute;
+  bottom: 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #62618f;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.logout-icon {
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.left-side button:hover {
+  color: #1a194d;
+  transform: scale(1.1);
+  font-weight: 500;
+}
+
+.logout-icon:hover {
+  color: #1a194d;
+  transform: scale(1.1);
+}
+/* Nav Bar end */
+/* left Side Nav Bar End */
+
+/* right side start */
+.right-side {
+  padding: 50px;
+  width: 80%;
+}
+
+.billing-history {
+  /* background-color: antiquewhite; */
+  width: 70%;
+}
+
+.billing-history > h4 {
+  margin-top: 50px;
+}
+
+.billing-history > p {
+  margin-bottom: 40px;
+}
+
+/* table start */
+.content-table {
+  border-collapse: collapse;
+  font-weight: 500;
+  font-size: 16px;
+  min-width: 600px;
+  margin-left: -10px;
+}
+
+.content-table tr {
+  text-align: left;
+}
+
+.content-table tr th {
+  font-weight: 500;
+  font-size: 14px;
+  color: #62618f;
+}
+.content-table th,
+.content-table td {
+  padding: 14px 10px;
+}
+
+.content-table tr td button {
+  border: 1px solid #cbcbd9;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1a194d;
+  cursor: pointer;
+}
+
+.content-table tr:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.load-more {
+  color: #ee6338;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 20px;
+}
+/* Table End */
+
+.payment-method {
+  margin-top: 80px;
+}
+
+.card-details {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+  /* justify-content: space-between; */
+  /* padding-right: 100px; */
+  gap: 20px;
+}
+
+.card-details button {
+  border: 1px solid #cbcbd9;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1a194d;
+  cursor: pointer;
+}
