@@ -39,6 +39,7 @@ nav ul li {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 15px;
   display: flex;
+  margin-top: 10px;
 }
 
 .d-flex {
@@ -188,6 +189,7 @@ nav ul li i {
 .right-side {
   padding: 50px;
   width: 80%;
+  display: flex;
 }
 
 .billing-history {
@@ -252,6 +254,7 @@ nav ul li i {
 }
 /* Table End */
 
+/* Payment Method Start */
 .payment-method {
   margin-top: 80px;
 }
@@ -260,10 +263,10 @@ nav ul li i {
   margin-top: 20px;
   display: flex;
   align-items: center;
-  /* background-color: red; */
-  /* justify-content: space-between; */
-  /* padding-right: 100px; */
   gap: 20px;
+}
+.card-details img {
+  max-width: 85px;
 }
 
 .card-details button {
@@ -276,4 +279,44 @@ nav ul li i {
   font-size: 16px;
   color: #1a194d;
   cursor: pointer;
+  margin-left: 130px;
 }
+/* Payment Method end */
+/* Billing History End */
+
+/* Plan Card start */
+.card-plan {
+  width: 30%;
+}
+
+.card {
+  padding: 30px;
+  background-color: #ee4d38;
+  border-radius: 20px;
+  color: #ffffff;
+  margin-top: 140px;
+}
+
+.card h4 {
+  margin-bottom: 15px;
+}
+
+.card h2 {
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+.card button {
+  border: 1px solid #cbcbd9;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+/* Plan Card End */
