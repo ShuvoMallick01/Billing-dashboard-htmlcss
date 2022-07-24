@@ -131,11 +131,13 @@ nav ul {
 nav ul li {
   padding: 10px 20px;
   cursor: pointer;
+  border-left: 4px solid transparent;
 }
 
 nav ul li:hover {
   border-left: 4px solid #ee6338;
   z-index: 1;
+  transition: all 0.2s ease-in-out;
 }
 
 nav ul li a {
